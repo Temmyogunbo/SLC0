@@ -10,7 +10,7 @@ aritGeo: function(array){
     var a = array[0],         //Where a is the first term of the series in the array      
         d = array[1] - array[0];  //where d is the common difference
     
-    if(a === undefined ){
+    if(a === undefined){
       return 0;
     }
     var i,
