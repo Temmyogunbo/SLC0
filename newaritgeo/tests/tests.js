@@ -40,7 +40,7 @@
         expect(myApp.aritGeo([2, 6, 18, 54])).toEqual('Geometric');
       });
 
-      it("should return `Geometric` for [-128, 64, -32, 16, -8] ", function() {
+      it(" should return `Geometric` for [-128, 64, -32, 16, -8] ", function() {
         expect(myApp.aritGeo([-128, 64, -32, 16, -8])).toEqual('Geometric');
       });
 
